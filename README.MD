@@ -1,11 +1,11 @@
 # Nginx Docker with dynamic reverse proxy
 
-Simple docker image, handles dynamically multiple reverse proxies.
+Simple nginx docker image, handles dynamically multiple reverse proxies.
 
 ## ENVS
 
 - ENDPOINTS:
-  > /`location`=`http://host:port/app;/`location1`=`http://host1:port/app1`
+  > /location=http://host:port/app;/location1=http://host1:port/app1
 
 ## Usage
 
